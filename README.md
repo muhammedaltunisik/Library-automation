@@ -18,6 +18,7 @@ Admin, Uye, Kullanıcı ve Kitap sınıflarının fonksiyonları ve görevleri a
 7. *Çıkış*
 
 ![Admin Menusu](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/AdminHomaPage.png)
+<img src="[https://mma.prnewswire.com/media/1513369/Educative_Logo.jpg](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/AdminHomaPage.png)"  width="600" height="300">
 
 ### Uye Kullanicisi Özellikleri
 1. *Kitap Ara*
