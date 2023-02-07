@@ -100,6 +100,7 @@ void Admin::uyeListele(Uye uy[])
 {
 	cout << setw(6) << left << "ID:" << setw(15) << left << "Ad-Soyad:" << setw(18) << left << "Uye Tipi:" << setw(15) << left << "Hesap Adi:" << setw(5) << left <<
 		 "Alabilicegi Kitap Sayisi:" << endl;
+
 	for (int i = 0; uy[i].GetAdSoyad() != "Girilmedi"; i++)
 	{
 		

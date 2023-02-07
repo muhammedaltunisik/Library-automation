@@ -2,6 +2,7 @@
 #include "Kitap.h"
 #include "Admin.h"
 #include <iostream>
+#include <Windows.h>
 
 using namespace std;
 
@@ -45,6 +46,7 @@ int main()
 		cout << "\tSeciminizi Girin:";
 		cin >> islem;
 		cout << endl;
+		std::system("cls");
 		switch (islem)
 		{
 		case 1:
@@ -61,34 +63,44 @@ int main()
 					cout << "1 Kitap Ekle \n2 Kitap Sil \n3 Kitaplari Listele \n4 Uye Ekle \n5 Uyeleri Listele \n6 Uyeleri Sil \n7 Cikis" << endl;
 					cout << "\tSeciminizi Girin:";
 					cin >> islem;
+					std::system("cls");
 					switch (islem)
 					{
 					case 1:
 						admin.kitapEkle(ktp);
+						Sleep(1000);
+						std::system("cls");
 						break;
 					case 2:
 						admin.kitapSilme(ktp);
+						Sleep(1000);
+						std::system("cls");
 						break;
 					case 3:
 						admin.kitapListele(ktp);
 						break;
 					case 4:
 						admin.uyeEkle(uy);
+						Sleep(1000);
+						std::system("cls");
 						break;
 					case 5:
 						admin.uyeListele(uy);
 						break;
 					case 6:
 						admin.uyeSilme(uy);
+						Sleep(1000);
+						std::system("cls");
 						break;
 					case 7:
 						dongu2 = 0;
 						break;
 					default:
 						cout << "Yanlis secim yaptiniz. Tekrar Deneyin" << endl;
+						Sleep(1000);
+						std::system("cls");
 						break;
 					}
-
 				}
 			}
 			break; // Case 1 sonu
@@ -100,6 +112,7 @@ int main()
 			cout << "Sifre:";
 			cin >> girilen_sifre;
 			hesapID = uyeIDBul(uy, hesap_Adi);
+			std::system("cls");
 			if (uy[hesapID].SifreDogruMu(hesap_Adi, girilen_sifre))
 			{
 				dongu2 = 1;
@@ -109,6 +122,7 @@ int main()
 					cout << "1 Kitap Ara \n2 Kitap Odunc Al \n3 Kitaplari Iade Et \n4 Kitaplari Listele \n5 Uyelik Islemleri \n6 Cikis" << endl;
 					cout << "\tSeciminizi Girin:";
 					cin >> islem;
+					std::system("cls");
 					switch (islem)
 					{
 					case 1:
@@ -116,9 +130,13 @@ int main()
 						break;
 					case 2:
 						uy[hesapID].kitapOduncAlma(ktp);
+						Sleep(1500);
+						std::system("cls");
 						break;
 					case 3:
 						uy[hesapID].kitapIadeEt(ktp);
+						Sleep(1500);
+						std::system("cls");
 						break;
 					case 4:
 						uy[hesapID].kitapListele(ktp);
@@ -131,9 +149,11 @@ int main()
 						break;
 					default:
 						cout << "Yanlis secim yaptiniz. Tekrar Deneyin" << endl;
+						Sleep(1000);
+						std::system("cls");
 						break;
 					}
-
+					
 				}
 
 			}
