@@ -27,14 +27,14 @@ Admin, Uye, Kullanıcı ve Kitap sınıflarının fonksiyonları ve görevleri a
 5. *Uyelik İslemleri*
 6. *Çıkış*
 
-![Uye Menusu](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img\User1.png)
+![Uye Menusu](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/User1.png)
 
 ------------------
 ### Projeye ait ekran çıktıları
-![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img\Login.png)
-![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img\User2.png)
-![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img\Admin1.png)
-![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img\Admin2.png)
+![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/Login.png)
+![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/User2.png)
+![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/Admin1.png)
+![image1](https://github.com/muhammedaltunisik/Kutuphane-Otomasyonu/blob/master/img/Admin2.png)
 ------------------
 
 ### Kullanıcı Sınıfının Sahip Olduğu fonksiyonlar ve Özellikleri
