@@ -40,58 +40,58 @@ Admin, Uye, Kullanıcı ve Kitap sınıflarının fonksiyonları ve görevleri a
 ### Kullanıcı Sınıfının Sahip Olduğu fonksiyonlar ve Özellikleri
 *Admin ve Üye sınıfının ortak özelliklerini tutmak için oluşturulmuş sınıftır. Kalıtım yoluyla her iki sınıf tarafından özellikleri miras alınır*
 
-**1. Yapıcı Fonksiyonu:** Kullanıcı sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
-**2. GetAdSoyad:** Kullanıcının adını ve soyadını döndürür
-**3. GetHesapAdi:**  Kullanıcının hesap adını döndürür
-**4. GetSifre:** Kullanıcının sifresini döndürür
-**5. GetID:** Kullanıcının ID numarasını döndürür
-**6. SetAdSoyad:** Kullanıcının adını ve soyadını ayarlamayı sağlar
-**7. SetHesapAdi:** Kullanıcının hesap adını ayarlamayı sağlar
-**8. SetSifre:** Kullanıcının sifresini ayarlar
-**9. SetID:** Kullanıcıya elle ID ataması yapar
+1. **Yapıcı Fonksiyonu:** Kullanıcı sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
+2. **GetAdSoyad:** Kullanıcının adını ve soyadını döndürür
+3. **GetHesapAdi:**  Kullanıcının hesap adını döndürür
+4. **GetSifre:** Kullanıcının sifresini döndürür
+5. **GetID:** Kullanıcının ID numarasını döndürür
+6. **SetAdSoyad:** Kullanıcının adını ve soyadını ayarlamayı sağlar
+7. **SetHesapAdi:** Kullanıcının hesap adını ayarlamayı sağlar
+8. **SetSifre:** Kullanıcının sifresini ayarlar
+9. **SetID:** Kullanıcıya elle ID ataması yapar
 
 #### Admin Sınıfının Sahip Olduğu fonksiyonlar ve Özellikleri
 
 *Kullanıcı sınıfından Türetilmiştir. Kitap ve Uyelerle ilgili değişiklikleri yapmayı sağlar*
 
-**1. Yapıcı Fonksiyonu:** Admin sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
-**2. uyeEkle:** Yeni üye kaydetmeyi sağlar.
-**3. uyeSil:**  Kayıtlı üyeyi silmeyi sağlar.
-**4. uyeListele:** Kayıtlı üyeleri listeler.
-**5. kitapEkle:** Yeni kitap ekler.
-**6. kitapSilme:** Ekli kitabı siler.
-**7. kitapListeleme:** Eklenmiş kitapları listeler.
-**8. mevcutKitapSayisi:** Ekli kitapların sayısını döndürür.
-**9. mevcutUyeSayisi:** Kayıtlı üyelerin sayısını döndürür.
+1. **Yapıcı Fonksiyonu:** Admin sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
+2. **uyeEkle:** Yeni üye kaydetmeyi sağlar.
+3. **uyeSil:**  Kayıtlı üyeyi silmeyi sağlar.
+4. **uyeListele:** Kayıtlı üyeleri listeler.
+5. **kitapEkle:** Yeni kitap ekler.
+6. **kitapSilme:** Ekli kitabı siler.
+7. **kitapListeleme:** Eklenmiş kitapları listeler.
+8. **mevcutKitapSayisi:** Ekli kitapların sayısını döndürür.
+9. **mevcutUyeSayisi:** Kayıtlı üyelerin sayısını döndürür.
 
 #### Üye Sınıfının Sahip Olduğu fonksiyonlar ve Özellikleri
 *Kullanıcı sınıfından Türetilmiştir. Üyelerin kitap ödünç alma iade etmeleri veya bilgilerini değiştirmeyi sağlar*
 
-**1. Yapıcı Fonksiyonu:** Üye sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
-**2. SetUyetipi:** Üye tipini belirler. (Öğrenci,Öğretim Üyesi vs)
-**3. SetKitapAlmaSayisi:**  Ödünç alabiliceği kitap sayısını belirler.
-**4. kitapArama:** Ekli olan kitaplar arasın dan arama yapar.
-**5. kitapOduncAlma:** Ekli kitaplardan birini odunc almayı sağlar.
-**6. kitapIadeEt:** Ödünç alınmış kitabı geri iade eder.
-**7. kitapListele:** Ekli kitapların hepsini listeler.
-**8. uyelikIslemleri:** Üye şifresini değiştirir.
-**9. GetKitapAlmaSayisi:** Elinde tuttuğu ödünç kitap sayınısı döndürür.
-**10. GetUyetipi:** Üyenin tipini döndürür.
+1. **Yapıcı Fonksiyonu:** Üye sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
+2. **SetUyetipi:** Üye tipini belirler. (Öğrenci,Öğretim Üyesi vs)
+3. **SetKitapAlmaSayisi:**  Ödünç alabiliceği kitap sayısını belirler.
+4. **kitapArama:** Ekli olan kitaplar arasın dan arama yapar.
+5. **kitapOduncAlma:** Ekli kitaplardan birini odunc almayı sağlar.
+6. **kitapIadeEt:** Ödünç alınmış kitabı geri iade eder.
+7. **kitapListele:** Ekli kitapların hepsini listeler.
+8. **uyelikIslemleri:** Üye şifresini değiştirir.
+9. **GetKitapAlmaSayisi:** Elinde tuttuğu ödünç kitap sayınısı döndürür.
+10. **GetUyetipi:** Üyenin tipini döndürür.
 
 #### Admin Sınıfının Sahip Olduğu fonksiyonlar ve Özellikleri
 
 *Kitaplara ait özellikleri tutan sınıftır.*
 
-**1. Yapıcı Fonksiyonu:** Kitap sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
-**2. GetKitapAdi:** Kitabın adını döndürür.
-**3. GetKitapYazari:**  Kitabın yazarını döndürür.
-**4. GetKitapDurumu:** Kitabın ödünç alınıp alınmadığını döndürür.
-**5. GetID:** Kitap ID döndürür.
-**6. GetBasimYili:** Kitabın basım yılını döndürür.
-**7. GetKitabiAlanKisiId:** Kitabı alan kişinin ID sini döndürür.
-**8. SetKitapAdi:** Kitabın adını belirler.
-**9. SetKitapYazari:** Kitabın yazarını belirler.
-**10. SetKitapDurumu:** Kitabın ödünç alınma durumunu belirler.
-**11. SetID:** Kitabın ID sını belirler.
-**12. SetBasimYili:** Kitabın basım yılını belirler.
-**13. SetKitabiAlanKisiID:** Kitabı alan kişinin ID sini belirler.
+1. **Yapıcı Fonksiyonu:** Kitap sınıfınından oluşturulan nesnenin ilk özelliklerini belirler .
+2. **GetKitapAdi:** Kitabın adını döndürür.
+3. **GetKitapYazari:**  Kitabın yazarını döndürür.
+4. **GetKitapDurumu:** Kitabın ödünç alınıp alınmadığını döndürür.
+5. **GetID:** Kitap ID döndürür.
+6. **GetBasimYili:** Kitabın basım yılını döndürür.
+7. **GetKitabiAlanKisiId:** Kitabı alan kişinin ID sini döndürür.
+8. **SetKitapAdi:** Kitabın adını belirler.
+9. **SetKitapYazari:** Kitabın yazarını belirler.
+10. **SetKitapDurumu:** Kitabın ödünç alınma durumunu belirler.
+11. **SetID:** Kitabın ID sını belirler.
+12. **SetBasimYili:** Kitabın basım yılını belirler.
+13. **SetKitabiAlanKisiID:** Kitabı alan kişinin ID sini belirler.
